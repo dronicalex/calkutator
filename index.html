@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+
+
+
+</header>
+			<main class="page">
+				<div class="calculator">
+					<p>Рассчитайте стоимость хранения </p>
+
+					<form action="">
+						<div class="calculator__img"><img src="img/d.png" alt=""></div>
+						<div class="calculator__content">
+							<div class="param">
+								<label for="dlina">Длина</label>
+								<input type="number" id="dlina">
+								<label for="shirina">Ширина</label>
+								<input type="number" id="shirina">
+								<label for="visota">Высота</label>
+								<input type="number" id="visota">
+								<div class="sel">
+									<label for="">единица измерения</label>
+									<select name="" id="select">
+										<option value="sm" selected="selected">см</option>
+										<option value="m">м</option>
+									</select>
+								</div>
+
+							</div>
+							<div class="count">
+								<label for="count">кол-во штук</label>
+								<input type="number" id="count">
+								<label for="days">кол-во дней</label>
+								<input type="number" id="days">
+								<div class="calk">рассчитать</div>
+							</div>
+						</div>
+					</form>
+					<div class="calculator__info"> Цена за хранение <span class="kub"></span> м3 составляет: <span class="num">10</span> тенге</div>
+				</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
